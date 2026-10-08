@@ -1,0 +1,298 @@
+{
+  "mirrors": {
+    "github": "ipeglin/artcraft-nix",
+    "gitlab": "ipeglin/artcraft-nix",
+    "gitlabSources": "ipeglin"
+  },
+  "apps": {
+    "designcraft": {
+      "title": "DesignCraft",
+      "summary": "Lay out magazines, books and print documents",
+      "repo": "storytold/designcraft",
+      "versions": {
+        "0.1.0": {
+          "tag": "v0.1.0",
+          "file": "designcraft-0.1.0-linux-x86_64.AppImage",
+          "bin": "designcraft",
+          "hash": "sha256-JNUggaPmmtjnR+RWeJEb8N6Q5TjWqld1JfQToZxjMEg="
+        },
+        "0.1.1": {
+          "tag": "v0.1.1",
+          "file": "designcraft-0.1.1-linux-x86_64.AppImage",
+          "bin": "designcraft",
+          "hash": "sha256-UrEj5BjiSOdqihk52sIkFti6XGSI1JWiwCJVfYq9974="
+        },
+        "0.2.0": {
+          "tag": "v0.2.0",
+          "file": "designcraft-0.2.0-linux-x86_64.AppImage",
+          "bin": "designcraft",
+          "hash": "sha256-SNoOJbcaij1otMrd8qHEJVy8HbR+OIxBLIGiXjIY6nY="
+        },
+        "0.2.1": {
+          "tag": "v0.2.1",
+          "file": "designcraft-0.2.1-linux-x86_64.AppImage",
+          "bin": "designcraft",
+          "hash": "sha256-eBQRhNTrwBg/6cJglhHSoz5nZoc4VIzAIrZ3g5jsg0A="
+        },
+        "0.4.0": {
+          "tag": "v0.4.0",
+          "file": "designcraft-0.4.0-linux-x86_64.AppImage",
+          "bin": "designcraft",
+          "hash": "sha256-v9J/WeCn6bjUD8ZKpgtv3ZEmmYdiMib3Wa/U18vGT74="
+        }
+      }
+    },
+    "effectcraft": {
+      "title": "EffectCraft",
+      "summary": "Motion graphics and visual effects compositor",
+      "repo": "storytold/effectcraft",
+      "versions": {
+        "0.1.0": {
+          "tag": "v0.1.0",
+          "file": "effectcraft-0.1.0-linux-x86_64.AppImage",
+          "bin": "effectcraft",
+          "hash": "sha256-V3n/KUlLQD7m8+iRzzmm+N05lw8gWjsafAMS8wU8KzE="
+        },
+        "0.1.1": {
+          "tag": "v0.1.1",
+          "file": "effectcraft-0.1.1-linux-x86_64.AppImage",
+          "bin": "effectcraft",
+          "hash": "sha256-LJxne1uK5wa2NgsZJdo/9ZeeV0bTnILMm3iU0lpg9z4="
+        },
+        "0.2.0": {
+          "tag": "v0.2.0",
+          "file": "effectcraft-0.2.0-linux-x86_64.AppImage",
+          "bin": "effectcraft",
+          "hash": "sha256-Ud+TC8WXBCWjJr9AAj5HdRvp9NrXLcAvwz7BPmc1UUM="
+        },
+        "0.3.0": {
+          "tag": "v0.3.0",
+          "file": "effectcraft-0.3.0-linux-x86_64.AppImage",
+          "bin": "effectcraft",
+          "hash": "sha256-ZqJCZQKjyVhHTYfXngUlvw1TkXdKzJDDdC++tvVyF38="
+        },
+        "0.3.1": {
+          "tag": "v0.3.1",
+          "file": "effectcraft-0.3.1-linux-x86_64.AppImage",
+          "bin": "effectcraft",
+          "hash": "sha256-+NM0W9tRMOrKtEH26G0KX5Lp7FUg8Ilf9g6igPzPvO4="
+        },
+        "0.4.0": {
+          "tag": "v0.4.0",
+          "file": "effectcraft-0.4.0-linux-x86_64.AppImage",
+          "bin": "effectcraft",
+          "hash": "sha256-mUw3TFTpIKEv8g++RDGZrK9JwDswOA56XBe2Agh0PXE="
+        },
+        "0.6.0": {
+          "tag": "v0.6.0",
+          "file": "effectcraft-0.6.0-linux-x86_64.AppImage",
+          "bin": "effectcraft",
+          "hash": "sha256-jzUuTv4BuOV25ICLljH2igjv/fBdkinCbGoFYcH74Lg="
+        }
+      }
+    },
+    "filmcraft": {
+      "title": "FilmCraft",
+      "summary": "Edit video, color and sound",
+      "repo": "storytold/filmcraft",
+      "versions": {
+        "0.1.0": {
+          "tag": "v0.1.0",
+          "file": "filmcraft-0.1.0-linux-x86_64.AppImage",
+          "bin": "filmcraft",
+          "hash": "sha256-4CeGWYVuwh/1J9GpwmIhTMiBslZhKFZ16Z5OUzIj96Q="
+        },
+        "0.1.1": {
+          "tag": "v0.1.1",
+          "file": "filmcraft-0.1.1-linux-x86_64.AppImage",
+          "bin": "filmcraft",
+          "hash": "sha256-m7RoerbKXp2QbsTobCX/CrgGGQ27eccEXkqG5H3h9ns="
+        },
+        "0.2.0": {
+          "tag": "v0.2.0",
+          "file": "filmcraft-0.2.0-linux-x86_64.AppImage",
+          "bin": "filmcraft",
+          "hash": "sha256-GR6L6RnmMchYT2OWEVsBYlFTiK5IFTWVxU2E8nGne9M="
+        },
+        "0.2.1": {
+          "tag": "v0.2.1",
+          "file": "filmcraft-0.2.1-linux-x86_64.AppImage",
+          "bin": "filmcraft",
+          "hash": "sha256-eJHJskyOFlpUkG+O5qaXPgUd08LMH6Jymngmn+xIEYg="
+        },
+        "0.4.0": {
+          "tag": "v0.4.0",
+          "file": "filmcraft-0.4.0-linux-x86_64.AppImage",
+          "bin": "filmcraft",
+          "hash": "sha256-2EEN6nsrBk7eHq2H3YlLyjU3pN/aGkQpcViEn1a6LUw="
+        }
+      }
+    },
+    "lightcraft": {
+      "title": "LightCraft",
+      "summary": "Organise photos and develop raw files, non-destructively",
+      "repo": "storytold/lightcraft",
+      "versions": {
+        "0.1.0": {
+          "tag": "v0.1.0",
+          "file": "lightcraft-0.1.0-linux-x86_64.AppImage",
+          "bin": "lightcraft",
+          "hash": "sha256-cF7GSrT1zib1wRo3wfBp7BwwgAWSytvX/+H7X46QDjw="
+        },
+        "0.1.1": {
+          "tag": "v0.1.1",
+          "file": "lightcraft-0.1.1-linux-x86_64.AppImage",
+          "bin": "lightcraft",
+          "hash": "sha256-VjibWeOtnKKgtjGXSMR01k2z20CeihTMXwaBTe7ZLCw="
+        },
+        "0.2.0": {
+          "tag": "v0.2.0",
+          "file": "lightcraft-0.2.0-linux-x86_64.AppImage",
+          "bin": "lightcraft",
+          "hash": "sha256-qZ895Cvk8O0wNFy8PGWde3bCA8qRn7QT1HxuDNaGHJk="
+        },
+        "0.2.1": {
+          "tag": "v0.2.1",
+          "file": "lightcraft-0.2.1-linux-x86_64.AppImage",
+          "bin": "lightcraft",
+          "hash": "sha256-wvOa2qimU21QFKe6EC/3heGjI6AuCJ0B2x+FN43A/FM="
+        },
+        "0.4.0": {
+          "tag": "v0.4.0",
+          "file": "lightcraft-0.4.0-linux-x86_64.AppImage",
+          "bin": "lightcraft",
+          "hash": "sha256-BFqYPmt14M7RbzDshL2AY/DyQmf/EMn1xGVSHlMICEc="
+        }
+      }
+    },
+    "pdfcraft": {
+      "title": "PdfCraft",
+      "summary": "Read, organize, combine, split and secure PDFs",
+      "repo": "storytold/pdfcraft",
+      "versions": {
+        "0.1.0": {
+          "tag": "v0.1.0",
+          "file": "printcraft-0.1.0-linux-x86_64.AppImage",
+          "bin": "printcraft",
+          "hash": "sha256-P8b0bYx6LvmmUFFh7ufGfsK8t13br6tYGW9oNkBeryY="
+        },
+        "0.1.1": {
+          "tag": "v0.1.1",
+          "file": "printcraft-0.1.1-linux-x86_64.AppImage",
+          "bin": "printcraft",
+          "hash": "sha256-/PxROEEgUJW5nAyvswNaEHx9k7V4Q6m+Udm9uM8j6wk="
+        },
+        "0.2.0": {
+          "tag": "v0.2.0",
+          "file": "printcraft-0.2.0-linux-x86_64.AppImage",
+          "bin": "printcraft",
+          "hash": "sha256-sbUoASlVBr6T18PPb3hjcS8TmGthq59po1biEVsGXZo="
+        },
+        "0.2.1": {
+          "tag": "v0.2.1",
+          "file": "printcraft-0.2.1-linux-x86_64.AppImage",
+          "bin": "printcraft",
+          "hash": "sha256-QBc1xka8WITPH/eZ1GkTvOfcPSnQb/WikCaX5lRl9YQ="
+        },
+        "0.4.0": {
+          "tag": "v0.4.0",
+          "file": "pdfcraft-0.4.0-linux-x86_64.AppImage",
+          "bin": "pdfcraft",
+          "hash": "sha256-4hzn3kmRCsyPAypLkGFB2kKzkAI4P7nvM6nYbbvsBdY="
+        }
+      }
+    },
+    "photocraft": {
+      "title": "PhotoCraft",
+      "summary": "Edit photos and layered Photoshop documents",
+      "repo": "storytold/photocraft",
+      "versions": {
+        "0.1.0": {
+          "tag": "v0.1.0",
+          "file": "photocraft-0.1.0-linux-x86_64.AppImage",
+          "bin": "photocraft",
+          "hash": "sha256-lBVD7FsS5YzsfbQ4i7p2EuquUHVed2Id1n3cHF0o8sE="
+        },
+        "0.1.1": {
+          "tag": "v0.1.1",
+          "file": "photocraft-0.1.1-linux-x86_64.AppImage",
+          "bin": "photocraft",
+          "hash": "sha256-N5Czf341wvBCo+3hT8zCAuNjdCg+YAPW7lIrRN74g+I="
+        },
+        "0.2.0": {
+          "tag": "v0.2.0",
+          "file": "photocraft-0.2.0-linux-x86_64.AppImage",
+          "bin": "photocraft",
+          "hash": "sha256-6tDRb3nQWIgaJJid7tef7sRUmwmNZZ+dCZm9UGB7MAw="
+        },
+        "0.3.0": {
+          "tag": "v0.3.0",
+          "file": "photocraft-0.3.0-linux-x86_64.AppImage",
+          "bin": "photocraft",
+          "hash": "sha256-KeMBH0mlLqJcj+QEJYpsX62wIJTbtAqITWnmuoCOYTY="
+        },
+        "0.5.0": {
+          "tag": "v0.5.0",
+          "file": "photocraft-0.5.0-linux-x86_64.AppImage",
+          "bin": "photocraft",
+          "hash": "sha256-9U2GOAcFO738/6DWJO9+SdP9QTEMe7Ht5IU29pkp0i8="
+        }
+      }
+    },
+    "vectorcraft": {
+      "title": "VectorCraft",
+      "summary": "Draw and edit vector illustrations, SVG and PDF",
+      "repo": "storytold/vectorcraft",
+      "versions": {
+        "0.1.0": {
+          "tag": "v0.1.0",
+          "file": "vectorcraft-0.1.0-linux-x86_64.AppImage",
+          "bin": "vectorcraft",
+          "hash": "sha256-Q+nUij8wrp5j5l/OsaQjuFOoxgdhoSOGnBIQJWCa+uE="
+        },
+        "0.1.1": {
+          "tag": "v0.1.1",
+          "file": "vectorcraft-0.1.1-linux-x86_64.AppImage",
+          "bin": "vectorcraft",
+          "hash": "sha256-7nZjZeQRdNF2ilojEPyfA6HwUfaR4YyQi7lJVlH7GD8="
+        },
+        "0.2.0": {
+          "tag": "v0.2.0",
+          "file": "vectorcraft-0.2.0-linux-x86_64.AppImage",
+          "bin": "vectorcraft",
+          "hash": "sha256-MDuh/y21eHm1p0BAJKtjZzQ7ROY0SbvFCN358pKSI0s="
+        },
+        "0.3.0": {
+          "tag": "v0.3.0",
+          "file": "vectorcraft-0.3.0-linux-x86_64.AppImage",
+          "bin": "vectorcraft",
+          "hash": "sha256-WBsWNCiW2hQCaOM9w/iLjy6UsdgSaI55qkQXxGKBTLg="
+        },
+        "0.3.1": {
+          "tag": "v0.3.1",
+          "file": "vectorcraft-0.3.1-linux-x86_64.AppImage",
+          "bin": "vectorcraft",
+          "hash": "sha256-X4pt0YSy1bmQchduMUCJdDI76wmhDXtVZgU3GiBb9xc="
+        },
+        "0.4.0": {
+          "tag": "v0.4.0",
+          "file": "vectorcraft-0.4.0-linux-x86_64.AppImage",
+          "bin": "vectorcraft",
+          "hash": "sha256-/0c/IAsBA2AtToPgC7VlKE0qsDRFqa0vdr+P/bMC2FA="
+        },
+        "0.5.0": {
+          "tag": "v0.5.0",
+          "file": "vectorcraft-0.5.0-linux-x86_64.AppImage",
+          "bin": "vectorcraft",
+          "hash": "sha256-8jsEsqAwIIaSmyXyEGbY9lm4gJZ2Yg5p/Jk4anMiemI="
+        },
+        "0.6.0": {
+          "tag": "v0.6.0",
+          "file": "vectorcraft-0.6.0-linux-x86_64.AppImage",
+          "bin": "vectorcraft",
+          "hash": "sha256-JHTZbPg+q1Kul6qqFIKuOMd5LwphLim2NA166lflgOI="
+        }
+      }
+    }
+  }
+}

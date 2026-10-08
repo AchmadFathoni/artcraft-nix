@@ -1,0 +1,62 @@
+# Daily: pick up new upstream releases, verify them, mirror everything to
+# GitHub + GitLab, commit versions.json, and push this repo to GitLab too.
+# Mondays also bump nixpkgs (kept only if every app still builds).
+# A failed run emails the repo owner; the report is on the run's summary page.
+name: update
+
+on:
+  schedule:
+    - cron: "23 4 * * *"
+  workflow_dispatch:
+    inputs:
+      bump-nixpkgs:
+        description: Also update flake.lock
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v7
+      - uses: cachix/install-nix-action@v31
+
+      - name: Track, verify and mirror releases
+        id: update
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+        run: |
+          args=()
+          if [ "${{ inputs.bump-nixpkgs }}" = true ] || { [ "${{ github.event_name }}" = schedule ] && [ "$(date -u +%u)" = 1 ]; }; then
+            args+=(--bump-nixpkgs)
+          fi
+          python3 scripts/update.py "${args[@]}"
+
+      - name: Commit
+        if: always() && steps.update.outputs.completed == 'true'
+        env:
+          MESSAGE: ${{ steps.update.outputs.message }}
+        run: |
+          git add versions.json flake.lock
+          git diff --cached --quiet && exit 0
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -m "update: $MESSAGE"
+          git push
+
+      - name: Push this repo to GitLab
+        if: always() && steps.update.outputs.completed == 'true'
+        env:
+          GITLAB_TOKEN: ${{ secrets.GITLAB_TOKEN }}
+        run: |
+          [ -n "$GITLAB_TOKEN" ] || exit 0
+          auth=$(printf 'oauth2:%s' "$GITLAB_TOKEN" | base64 -w0)
+          git -c http.extraHeader="Authorization: Basic $auth" \
+            push "https://gitlab.com/$(jq -r .mirrors.gitlab versions.json).git" HEAD:main

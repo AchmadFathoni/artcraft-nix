@@ -71,9 +71,9 @@ def github_headers():
     return {"Authorization": f"Bearer {gh_token()}", "Accept": "application/vnd.github+json"}
 
 
-def download(url, dest):
+def download(url, dest, headers=None):
     """Stream url to dest. Raises on HTTP errors."""
-    with request(url) as resp, open(dest, "wb") as out:
+    with request(url, headers=headers) as resp, open(dest, "wb") as out:
         shutil.copyfileobj(resp, out, 1 << 20)
 
 

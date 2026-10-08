@@ -46,13 +46,16 @@ def license_files(data, app, workdir):
     """Fetch upstream license files (or from the GitLab source mirror)."""
     repo = data["apps"][app]["repo"]
     mirror = f"{data['mirrors']['gitlabSources']}/{repo.split('/')[1]}-mirror"
+    # The authenticated API, not raw.githubusercontent.com, which rate-limits
+    # the shared Actions runner IPs.
+    api = {**common.github_headers(), "Accept": "application/vnd.github.raw"}
     found = []
     for name in LICENSE_FILES:
         dest = Path(workdir) / name
-        for url in (f"https://raw.githubusercontent.com/{repo}/HEAD/{name}",
-                    f"https://gitlab.com/{mirror}/-/raw/HEAD/{name}"):
+        for url, headers in ((f"https://api.github.com/repos/{repo}/contents/{name}", api),
+                             (f"https://gitlab.com/{mirror}/-/raw/HEAD/{name}", None)):
             try:
-                common.download(url, dest)
+                common.download(url, dest, headers)
                 found.append(dest)
                 break
             except urllib.error.URLError:
@@ -101,10 +104,17 @@ def ensure(data, apps, token, report):
     for app in apps:
         with tempfile.TemporaryDirectory() as tmp:
             licenses = license_files(data, app, tmp)
+            if not licenses:
+                report.fail(f"{app}: no license files found upstream or on the source mirror")
             on_github = github_assets(gh_repo, app)
             if on_github is None:
                 github_create(data, app, licenses)
                 on_github = {p.name for p in licenses}
+            missing = [str(p) for p in licenses if p.name not in on_github]
+            if missing:
+                subprocess.run(["gh", "release", "upload", f"mirror-{app}", *missing, "-R", gh_repo, "--clobber"],
+                               check=True)
+                report.info(f"attached license files to mirror-{app}")
             for version, entry in data["apps"][app]["versions"].items():
                 need_gh = entry["file"] not in on_github
                 need_gl = bool(token) and (app, version) not in on_gitlab

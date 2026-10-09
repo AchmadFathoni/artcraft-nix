@@ -291,6 +291,12 @@
           "file": "vectorcraft-0.6.0-linux-x86_64.AppImage",
           "bin": "vectorcraft",
           "hash": "sha256-JHTZbPg+q1Kul6qqFIKuOMd5LwphLim2NA166lflgOI="
+        },
+        "0.7.0": {
+          "tag": "v0.7.0",
+          "file": "vectorcraft-0.7.0-linux-x86_64.AppImage",
+          "bin": "vectorcraft",
+          "hash": "sha256-9pKPmt9COtChRev+OxQqldPSb1ULBSScIBIUVwH5i2A="
         }
       }
     }

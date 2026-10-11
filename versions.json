@@ -359,6 +359,99 @@
           "hash": "sha256-d+76LBynaB5Lmu3mONsxRjbajVBK6hB9SPszZ7b2Ejg="
         }
       }
+    },
+    "wordcraft": {
+      "title": "WordCraft",
+      "summary": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+      "repo": "storytold/wordcraft",
+      "versions": {
+        "0.1.0": {
+          "tag": "v0.1.0",
+          "file": "wordcraft-0.1.0-linux-x86_64.AppImage",
+          "bin": "wordcraft",
+          "hash": "sha256-becf9dcbc03a9b27d8313f59dbfefac185eb7bcd8732b00ae8a89a217beaea97"
+        },
+        "0.3.0": {
+          "tag": "v0.3.0",
+          "file": "wordcraft-0.3.0-linux-x86_64.AppImage",
+          "bin": "wordcraft",
+          "hash": "sha256-f25698266107f3d93800069990b6951096c7463690260dc01a87f09839d710ed"
+        },
+        "0.4.0": {
+          "tag": "v0.4.0",
+          "file": "wordcraft-0.4.0-linux-x86_64.AppImage",
+          "bin": "wordcraft",
+          "hash": "sha256-dd1eddcac72c4357e0d66f45e3ad9f46c2845b5dbd42f895d221c3edd8462ce9"
+        },
+        "0.5.0": {
+          "tag": "v0.5.0",
+          "file": "wordcraft-0.5.0-linux-x86_64.AppImage",
+          "bin": "wordcraft",
+          "hash": "sha256-9477ea92dd9edf2ab974bde32595845b2737b27b24c7a40659cb5dce27b27551"
+        }
+      }
+    },
+    "gridcraft": {
+      "title": "GridCraft",
+      "summary": "GridCraft: an open-source, clean-room spreadsheet (Microsoft Excel-style) in pure Rust. By ArtCraft.",
+      "repo": "storytold/gridcraft",
+      "versions": {
+        "0.1.0": {
+          "tag": "v0.1.0",
+          "file": "gridcraft-0.1.0-linux-x86_64.AppImage",
+          "bin": "gridcraft",
+          "hash": "sha256-4bf6ed003f07bf0adf41d29d9a9cbe5bc2742dfe437a0b17507cb9ae112d325e"
+        },
+        "0.3.0": {
+          "tag": "v0.3.0",
+          "file": "gridcraft-0.3.0-linux-x86_64.AppImage",
+          "bin": "gridcraft",
+          "hash": "sha256-ae1c38dd468d464f749e1514ee86afb087c9ff77bd50c47e647cdb18f1532db1"
+        },
+        "0.4.0": {
+          "tag": "v0.4.0",
+          "file": "gridcraft-0.4.0-linux-x86_64.AppImage",
+          "bin": "gridcraft",
+          "hash": "sha256-38f3e9dfd80c034f85f5b399325224ba27d89d62f40459da548560b5002854df"
+        },
+        "0.5.0": {
+          "tag": "v0.5.0",
+          "file": "gridcraft-0.5.0-linux-x86_64.AppImage",
+          "bin": "gridcraft",
+          "hash": "sha256-f97a82d0f21d3381fbb19a0ae0928d65c5cdc402faa5e92008312ce498745ce2"
+        }
+      }
+    },
+    "deckcraft": {
+      "title": "DeckCraft",
+      "summary": "Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps.",
+      "repo": "storytold/deckcraft",
+      "versions": {
+        "0.1.0": {
+          "tag": "v0.1.0",
+          "file": "deckcraft-0.1.0-linux-x86_64.AppImage",
+          "bin": "deckcraft",
+          "hash": "sha256-b611d2ee6fb4ecc2034b1c76540e6d02de15c6ea83af9d1a0dd4ed6ceb612ebf"
+        },
+        "0.3.0": {
+          "tag": "v0.3.0",
+          "file": "deckcraft-0.3.0-linux-x86_64.AppImage",
+          "bin": "deckcraft",
+          "hash": "sha256-d42f5e4d320b7e58d6b860f33327b94b7762df801ab0edd7c8773594ac6146a8"
+        },
+        "0.4.0": {
+          "tag": "v0.4.0",
+          "file": "deckcraft-0.4.0-linux-x86_64.AppImage",
+          "bin": "deckcraft",
+          "hash": "sha256-8db8d0dd1a49ebb295772d89c8767f97fc36765d8342b2afdd6ab7e2723542f9"
+        },
+        "0.5.0": {
+          "tag": "v0.5.0",
+          "file": "deckcraft-0.5.0-linux-x86_64.AppImage",
+          "bin": "deckcraft",
+          "hash": "sha256-662f6236a1c0a81c326e80b126afd55dd68dc2a12c33bbc3009f06d9f39b311e"
+        }
+      }
     }
   }
 }

@@ -45,6 +45,12 @@
           "file": "designcraft-0.5.0-linux-x86_64.AppImage",
           "bin": "designcraft",
           "hash": "sha256-h7Yg2wP7JFtfSfmREcobY04/Ym7R38OX6ZYwiM0EFKc="
+        },
+        "0.6.0": {
+          "tag": "v0.6.0",
+          "file": "designcraft-0.6.0-linux-x86_64.AppImage",
+          "bin": "designcraft",
+          "hash": "sha256-+2Ln56mt7i/X9ACyuiYJO5aoA0cKfY1HbjkZbwXEwDQ="
         }
       }
     },
@@ -100,6 +106,12 @@
           "file": "effectcraft-0.7.0-linux-x86_64.AppImage",
           "bin": "effectcraft",
           "hash": "sha256-eZLmpSecKcgpWHbxh0wor6kAbapNL+/syOyuMJJOzqo="
+        },
+        "0.8.0": {
+          "tag": "v0.8.0",
+          "file": "effectcraft-0.8.0-linux-x86_64.AppImage",
+          "bin": "effectcraft",
+          "hash": "sha256-MSIdq2Mf7zo40UBUb/wqaVVFm4WYd4RagoLZqXI5s3M="
         }
       }
     },
@@ -180,6 +192,12 @@
           "file": "lightcraft-0.5.0-linux-x86_64.AppImage",
           "bin": "lightcraft",
           "hash": "sha256-I84h/vKK+Rz+lY6ZycXVi/bQDte/cCsxohFCzUWkcGM="
+        },
+        "0.6.0": {
+          "tag": "v0.6.0",
+          "file": "lightcraft-0.6.0-linux-x86_64.AppImage",
+          "bin": "lightcraft",
+          "hash": "sha256-V37wGNzuyNSYDS+bIHguw3hIFYuOZBnMkNMcK1gMGRk="
         }
       }
     },
@@ -260,6 +278,12 @@
           "file": "photocraft-0.6.0-linux-x86_64.AppImage",
           "bin": "photocraft",
           "hash": "sha256-Y1+TiT+Unb8Xorwg4cKFqO/byIWchErS+6ro5wCfZ9Y="
+        },
+        "0.7.0": {
+          "tag": "v0.7.0",
+          "file": "photocraft-0.7.0-linux-x86_64.AppImage",
+          "bin": "photocraft",
+          "hash": "sha256-h+vONrzfazHRapyiLOKfmtjbaBheTZgRiADRwt54rEI="
         }
       }
     },
@@ -327,6 +351,12 @@
           "file": "vectorcraft-0.8.0-linux-x86_64.AppImage",
           "bin": "vectorcraft",
           "hash": "sha256-ix62bdrHfDnACl9ZF1nY56SVR6bi4QdwbnQYuSjiNqo="
+        },
+        "0.9.0": {
+          "tag": "v0.9.0",
+          "file": "vectorcraft-0.9.0-linux-x86_64.AppImage",
+          "bin": "vectorcraft",
+          "hash": "sha256-d+76LBynaB5Lmu3mONsxRjbajVBK6hB9SPszZ7b2Ejg="
         }
       }
     }

@@ -369,25 +369,25 @@
           "tag": "v0.1.0",
           "file": "wordcraft-0.1.0-linux-x86_64.AppImage",
           "bin": "wordcraft",
-          "hash": "sha256-becf9dcbc03a9b27d8313f59dbfefac185eb7bcd8732b00ae8a89a217beaea97"
+          "hash": "sha256-15zax9xj36m8x05b0cl7rmxyp1f1zbzdnn9z67c2g6rsq35rvkxy"
         },
         "0.3.0": {
           "tag": "v0.3.0",
           "file": "wordcraft-0.3.0-linux-x86_64.AppImage",
           "bin": "wordcraft",
-          "hash": "sha256-f25698266107f3d93800069990b6951096c7463690260dc01a87f09839d710ed"
+          "hash": "sha256-1v8hswwriw473b00s9lh6r3cg5hhjnv9168600wdkwq7c4k9hmpj"
         },
         "0.4.0": {
           "tag": "v0.4.0",
           "file": "wordcraft-0.4.0-linux-x86_64.AppImage",
           "bin": "wordcraft",
-          "hash": "sha256-dd1eddcac72c4357e0d66f45e3ad9f46c2845b5dbd42f895d221c3edd8462ce9"
+          "hash": "sha256-1s9c8vcfvhr1saazhhmxbmdq9hj6kyny6ibgsvh5fhrcqz5ds7nx"
         },
         "0.5.0": {
           "tag": "v0.5.0",
           "file": "wordcraft-0.5.0-linux-x86_64.AppImage",
           "bin": "wordcraft",
-          "hash": "sha256-9477ea92dd9edf2ab974bde32595845b2737b27b24c7a40659cb5dce27b27551"
+          "hash": "sha256-0lbmn8kwwpfbb43a9ir4gfr3f9svhjajbqxxfjwjmpwyvn9flxwl"
         }
       }
     },
@@ -400,25 +400,25 @@
           "tag": "v0.1.0",
           "file": "gridcraft-0.1.0-linux-x86_64.AppImage",
           "bin": "gridcraft",
-          "hash": "sha256-4bf6ed003f07bf0adf41d29d9a9cbe5bc2742dfe437a0b17507cb9ae112d325e"
+          "hash": "sha256-0pij5l8sxfbwa0bhnyj3zqnp9hjvpsf9m7fj87ghmgq77w0fvxjb"
         },
         "0.3.0": {
           "tag": "v0.3.0",
           "file": "gridcraft-0.3.0-linux-x86_64.AppImage",
           "bin": "gridcraft",
-          "hash": "sha256-ae1c38dd468d464f749e1514ee86afb087c9ff77bd50c47e647cdb18f1532db1"
+          "hash": "sha256-1c9dagqiinvwcizc8l5xfzzwk1xhmy3fw50mkrs4yild8vfkh75f"
         },
         "0.4.0": {
           "tag": "v0.4.0",
           "file": "gridcraft-0.4.0-linux-x86_64.AppImage",
           "bin": "gridcraft",
-          "hash": "sha256-38f3e9dfd80c034f85f5b399325224ba27d89d62f40459da548560b5002854df"
+          "hash": "sha256-1psl500baq45akd5j17lcafxh9xs4i9356dkyn2ly0qcv3gykwrq"
         },
         "0.5.0": {
           "tag": "v0.5.0",
           "file": "gridcraft-0.5.0-linux-x86_64.AppImage",
           "bin": "gridcraft",
-          "hash": "sha256-f97a82d0f21d3381fbb19a0ae0928d65c5cdc402faa5e92008312ce498745ce2"
+          "hash": "sha256-1qjwfjcf8b1i10hfk9gs0b2cvib5in9f02lsn7xq2cqxyb884ypr"
         }
       }
     },
@@ -431,25 +431,25 @@
           "tag": "v0.1.0",
           "file": "deckcraft-0.1.0-linux-x86_64.AppImage",
           "bin": "deckcraft",
-          "hash": "sha256-b611d2ee6fb4ecc2034b1c76540e6d02de15c6ea83af9d1a0dd4ed6ceb612ebf"
+          "hash": "sha256-1grfc7mnrvfl1ld9vbw3xb31bph2dl758xhw9c1w5v5ldzpd44dn"
         },
         "0.3.0": {
           "tag": "v0.3.0",
           "file": "deckcraft-0.3.0-linux-x86_64.AppImage",
           "bin": "deckcraft",
-          "hash": "sha256-d42f5e4d320b7e58d6b860f33327b94b7762df801ab0edd7c8773594ac6146a8"
+          "hash": "sha256-1a26c6n98dbpr3byvc0sh3gn4xsbp4kk7wv0p3b5hzhb696mwbyl"
         },
         "0.4.0": {
           "tag": "v0.4.0",
           "file": "deckcraft-0.4.0-linux-x86_64.AppImage",
           "bin": "deckcraft",
-          "hash": "sha256-8db8d0dd1a49ebb295772d89c8767f97fc36765d8342b2afdd6ab7e2723542f9"
+          "hash": "sha256-1ya26mrf5dvavnpv4hl3bmv3dz4pgxvci29dfyav5ss93bfx1f4d"
         },
         "0.5.0": {
           "tag": "v0.5.0",
           "file": "deckcraft-0.5.0-linux-x86_64.AppImage",
           "bin": "deckcraft",
-          "hash": "sha256-662f6236a1c0a81c326e80b126afd55dd68dc2a12c33bbc3009f06d9f39b311e"
+          "hash": "sha256-07iikgrxj1lz031vncrcl718vmjxsnpjdcc0dqr1ra60l4v64bv6"
         }
       }
     }

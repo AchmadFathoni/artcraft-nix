@@ -17,6 +17,8 @@ working even if the upstream releases disappear.
 | WordCraft | Word | `wordcraft` |
 | GridCraft | Excel | `gridcraft` |
 | DeckCraft | PowerPoint | `deckcraft` |
+| SoundCraft | Avid Pro Tools | `soundcraft` |
+| CADCraft | autoCAD | `cadcraft` |
 
 Unofficial: not affiliated with the ArtCraft authors. x86_64-linux only for now.
 

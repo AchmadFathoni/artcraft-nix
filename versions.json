@@ -452,6 +452,74 @@
           "hash": "sha256-Zi9iNqHAqBwyboCxJq/VXdaNwqEsM7vDAJ8G2fObMR4="
         }
       }
+    },
+    "soundcraft": {
+      "title": "SoundCraft",
+      "summary": "An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust",
+      "repo": "storytold/soundcraft",
+      "versions": {
+        "0.3.0": {
+          "tag": "v0.3.0",
+          "file": "soundcraft-0.3.0-linux-x86_64.AppImage",
+          "bin": "soundcraft",
+          "hash": "sha256-WPanUQO7GW3bdj2bh68mojVUXX03RsXLbzrXrUmj4mE="
+        },
+        "0.4.0": {
+          "tag": "v0.4.0",
+          "file": "soundcraft-0.4.0-linux-x86_64.AppImage",
+          "bin": "soundcraft",
+          "hash": "sha256-2LaOp4HYySodioRJ6pttCYioP3o6++1lbjesUpgSv6A="
+        },
+        "0.5.0": {
+          "tag": "v0.5.0",
+          "file": "soundcraft-0.5.0-linux-x86_64.AppImage",
+          "bin": "soundcraft",
+          "hash": "sha256-ygCL5GG1fKFpdflPn8dY851yfUR3wyEeP1sepGvq0nI="
+        },
+        "0.6.1": {
+          "tag": "v0.6.1",
+          "file": "soundcraft-0.6.1-linux-x86_64.AppImage",
+          "bin": "soundcraft",
+          "hash": "sha256-aMZY8uctdKMnf0jfPOE+TbnG6v1/FCX2Pi3IXYZ5EgA="
+        }
+      }
+    },
+    "cadcraft": {
+      "title": "CADCraft",
+      "summary": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
+      "repo": "storytold/cadcraft",
+      "versions": {
+        "0.1.0": {
+          "tag": "v0.1.0",
+          "file": "cadcraft-0.1.0-linux-x86_64.AppImage",
+          "bin": "cadcraft",
+          "hash": "sha256-Dkd9wJrcXca4ACFwICgKqvZS+jF4vSsJMTS4+QMpQKg="
+        },
+        "0.3.0": {
+          "tag": "v0.3.0",
+          "file": "cadcraft-0.3.0-linux-x86_64.AppImage",
+          "bin": "cadcraft",
+          "hash": "sha256-tGPweKEi+eTqV8N8XkPsOa7AAkHWoJVo739XO3MnmX8="
+        },
+        "0.4.0": {
+          "tag": "v0.4.0",
+          "file": "cadcraft-0.4.0-linux-x86_64.AppImage",
+          "bin": "cadcraft",
+          "hash": "sha256-cy0/L4WUXVC6yfu/PWTgv5dKxZPS8zRK8XJyc6KeU6o="
+        },
+        "0.5.0": {
+          "tag": "v0.5.0",
+          "file": "cadcraft-0.5.0-linux-x86_64.AppImage",
+          "bin": "cadcraft",
+          "hash": "sha256-0pdWaTryscRBFd/aZ7c9BR+dZenjaFKSZ0S18xKuhcY="
+        },
+        "0.6.2": {
+          "tag": "v0.6.2",
+          "file": "cadcraft-0.6.2-linux-x86_64.AppImage",
+          "bin": "cadcraft",
+          "hash": "sha256-MtqtoRubblEucqoHHOvzyvF/dBuF8JR0m/85rTYDatE="
+        }
+      }
     }
   }
 }

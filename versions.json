@@ -57,6 +57,12 @@
           "file": "designcraft-0.7.1-linux-x86_64.AppImage",
           "bin": "designcraft",
           "hash": "sha256-T7tdLSwvHWf7fhMeVKhUUxDEiSWMpaLVUJp6LF0/pZs="
+        },
+        "0.8.0": {
+          "tag": "v0.8.0",
+          "file": "designcraft-0.8.0-linux-x86_64.AppImage",
+          "bin": "designcraft",
+          "hash": "sha256-iNV3EPVsn7fY4z4EYGHv+DkReXG0AqQQPEszK1yjtd8="
         }
       }
     },
@@ -124,6 +130,12 @@
           "file": "effectcraft-0.9.2-linux-x86_64.AppImage",
           "bin": "effectcraft",
           "hash": "sha256-9e8cKtMgUepsE7E8FwpzvW8tCoOaT/cYlbFqkNOjrjc="
+        },
+        "0.10.0": {
+          "tag": "v0.10.0",
+          "file": "effectcraft-0.10.0-linux-x86_64.AppImage",
+          "bin": "effectcraft",
+          "hash": "sha256-0OQBb25ZFb+EdGX8+kBToWB+CvoWs1/tFWp4x16ItlA="
         }
       }
     },
@@ -302,6 +314,12 @@
           "file": "photocraft-0.8.2-linux-x86_64.AppImage",
           "bin": "photocraft",
           "hash": "sha256-XrZW3mhq9QTYFg1RmMLI1BTPi3qNPsxja8i6j7VkSKc="
+        },
+        "0.9.0": {
+          "tag": "v0.9.0",
+          "file": "photocraft-0.9.0-linux-x86_64.AppImage",
+          "bin": "photocraft",
+          "hash": "sha256-SDqaeSAODAhku1TPP6pqVeK3nBQz2s/LFT04YuePMrw="
         }
       }
     },
@@ -381,6 +399,12 @@
           "file": "vectorcraft-0.10.0-linux-x86_64.AppImage",
           "bin": "vectorcraft",
           "hash": "sha256-LS2JWHAURlwwlqbkVtc6c7tq7BBOwO0hOkBqFIAmwCk="
+        },
+        "0.11.0": {
+          "tag": "v0.11.0",
+          "file": "vectorcraft-0.11.0-linux-x86_64.AppImage",
+          "bin": "vectorcraft",
+          "hash": "sha256-CrUSb5svlZG8J6EOIOobLyOThLGhb+yIKI7T3m2/gxw="
         }
       }
     },
